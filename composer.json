@@ -1,0 +1,20 @@
+{
+    "name": "amranich/os-logo-fetcher",
+    "description": "Get brand logo images for operating systems",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "AmraniCh",
+        "email": "contact@amranich.dev",
+        "homepage": "https://amranich.dev"
+    }],
+    "minimum-stability": "stable",
+    "require": {
+        "php-curl-class/php-curl-class": "^9.11"
+    },
+    "autoload": {
+        "psr-4": {
+            "AmraniCh\\OsLogoFetcher\\": "src/"
+        }
+    }
+}
